@@ -18,6 +18,7 @@ It includes user registration, login, JWT tokens, protected routes, admin access
 
 ## 📁 Project Structure
 authvault/
+
 │── main.go
 
 │── handlers/ → Register, Login, Profile, Admin, Refresh, Logout
@@ -33,33 +34,47 @@ authvault/
 ---
 
 Main APIs
+
 Register
+
 -POST /register
 
 Login
+
 -POST /login
 
 Profile (Protected)
+
 -GET /profile
 
 Header: Authorization: Bearer <access_token>
 
 Admin (Protected)
+
 -GET /admin
 
 Refresh Token
+
 -POST /refresh
 
 Logout
+
 -GET /logout
 
 ---
 
 Future Enhancements
+
 -Move storage from map → SQL database
+
 -Add email OTP verification
+
 -Add forgot password
+
 -Add rate limiting middleware
+
 -Add logging middleware
+
 -Add unit tests
+
 -Add Docker support
