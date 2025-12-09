@@ -30,6 +30,8 @@ authvault/
 
 └── utils/ → JWT + Hash utilities
 
+---
+
 Main APIs
 Register
 -POST /register
@@ -50,6 +52,8 @@ Refresh Token
 
 Logout
 -GET /logout
+
+---
 
 Future Enhancements
 -Move storage from map → SQL database
