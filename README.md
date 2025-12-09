@@ -19,10 +19,15 @@ It includes user registration, login, JWT tokens, protected routes, admin access
 ## 📁 Project Structure
 authvault/
 │── main.go
+
 │── handlers/ → Register, Login, Profile, Admin, Refresh, Logout
+
 │── middleware/ → Auth + Admin middleware
+
 │── models/ → User struct
+
 │── storage/ → In-memory users + blacklist
+
 └── utils/ → JWT + Hash utilities
 
 Main APIs
